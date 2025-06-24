@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stellara | Space Research & Tourism</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Exo+2:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Exo 2', sans-serif;
+      background: #0a0a2a;
+      color: white;
+      font-size: 1.2em;
+    }
+    header {
+      background: #0f0f3d;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 4em;
+      margin: 0;
+      color: #00ffff;
+      transition: all 0.3s ease;
+    }
+    header p {
+      font-size: 1.4em;
+      color: #ccc;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #1a1a4a;
+      padding: 15px 0;
+    }
+    nav a {
+      color: #00ccff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section.hero {
+      background: url('https://images.unsplash.com/photo-1446776811953-b23d57bd21aa') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 3em;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      color: #ffffff;
+      animation: fadeInUp 2s ease-out;
+    }
+    section {
+      padding: 60px 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2.2em;
+      color: #00ccff;
+      margin-bottom: 20px;
+    }
+    section p {
+      line-height: 1.8em;
+    }
+    footer {
+      background: #0f0f3d;
+      padding: 30px;
+      text-align: center;
+      color: #aaa;
+      font-size: 1em;
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 data-aos="fade-down">STELLARA</h1>
+    <p data-aos="fade-up">The Future of Space Research & Tourism</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#mission">Mission</a>
+    <a href="#join">Join Us</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Explore Beyond. Discover Within.</h2>
+  </section>
+
+  <section class="about" id="about" data-aos="fade-right">
+    <h2>About Stellara</h2>
+    <p>Founded by a visionary at age 16, Stellara is a next-generation space organization focused on cutting-edge research and accessible space tourism. We're creating a future where the stars are within reach for everyone.</p>
+  </section>
+
+  <section class="mission" id="mission" data-aos="fade-left">
+    <h2>Our Mission</h2>
+    <p>To push the boundaries of scientific discovery and bring space travel to the people. We believe in youth-led innovation, bold exploration, and a universe of possibility.</p>
+  </section>
+
+  <section class="join" id="join" data-aos="zoom-in-up">
+    <h2>Join the Journey</h2>
+    <p>Follow our progress, support our mission, or become part of the Stellara team. The stars are calling — are you ready to answer?</p>
+    <p><strong>Email:</strong> contact@stellara.space</p>
+  </section>
+
+  <footer data-aos="fade-up">
+    &copy; 2025 Stellara. All rights reserved.
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1200 });
+  </script>
+</body>
+</html>
